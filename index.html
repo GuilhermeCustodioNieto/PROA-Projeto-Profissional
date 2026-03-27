@@ -1,16 +1,61 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <!-- Fonte Poppins -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display
+=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Boa proa team</title>
+    <!-- Ícones (Font Awesome) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Login</title>
   </head>
   <body>
-    <header></header>
-    <main>Oi scrum team</main>
-    <footer></footer>
-    <script></script>
+    <div class="container">
+      <div class="caixa-login">
+        <div class="titulo">
+          <!-- Título aqui -->
+          <h1>Login</h1>
+        </div>
+        <div class="grupo-input usuario">
+          <div class="icone">
+            <i class="fa fa-user-circle-o"></i>
+          </div>
+          <div class="entrada">
+            <!-- Input username -->
+            <input type="text" placeholder="Username" />
+          </div>
+        </div>
+        <div class="grupo-input senha">
+          <div class="icone">
+            <i class="fa fa-lock"></i>
+          </div>
+          <div class="entrada">
+            <!-- Input password -->
+            <input type="password" placeholder="Password" />
+          </div>
+        </div>
+        <div class="opcoes">
+          <div class="lembrar">
+            <!-- Checkbox -->
+          </div>
+          <div class="esqueceu">
+            <!-- Link esquecer senha -->
+            <a href="#">Esqueceu sua senha?</a>
+          </div>
+        </div>
+        <div class="botao">
+          <!-- Botão login -->
+          <input type="submit" value="Entrar" />
+        </div>
+      </div>
+    </div>
   </body>
 </html>
